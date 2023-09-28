@@ -1,0 +1,5 @@
+import sys
+!conda install --yes --prefix {sys.prefix} xlwt
+!conda install --yes --prefix {sys.prefix} openpyxl
+!conda install --yes --prefix {sys.prefix} xlrd
+!conda install --yes --prefix {sys.prefix} matplotlib
